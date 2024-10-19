@@ -1,9 +1,38 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\Components\_AboutComponentPartial\Default.cshtml" />
+    <None Include="Views\Shared\Components\_ContactComponentPartial\Default.cshtml" />
+    <None Include="Views\Shared\Components\_ExperienceComponentPartial\Default.cshtml" />
+    <None Include="Views\Shared\Components\_FeatureComponentPartial\Default.cshtml" />
+    <None Include="Views\Shared\Components\_FooterComponentPartial\Default.cshtml" />
+    <None Include="Views\Shared\Components\_HeadComponentPartial\Default.cshtml" />
+    <None Include="Views\Shared\Components\_NavbarComponentPartial\Default.cshtml" />
+    <None Include="Views\Shared\Components\_PortfolioComponentPartial\Default.cshtml" />
+    <None Include="Views\Shared\Components\_SkillComponentPartial\Default.cshtml" />
+    <None Include="Views\Shared\Components\_StatisticComponentPartial\Default.cshtml" />
+    <None Include="Views\Shared\Components\_TestimonialComponentPartial\Default.cshtml" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\.DS_Store" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.28" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.28">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.28" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.28">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.18" />
+  </ItemGroup>
 
 </Project>
