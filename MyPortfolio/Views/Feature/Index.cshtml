@@ -1,0 +1,57 @@
+﻿@model List<Feature>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Layout/Index.cshtml";
+	int count = 0;
+}
+
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Öne Çıkan Alan</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Öne Çıkanlar Alan Listesi</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							Öne çıkanlar ile ilgili işlemleri aşağıdaki panelden yapabilirsiniz.
+						</div>
+						<table class="table mt-3">
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Başlık</th>
+									<th scope="col">Açıklama</th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach (var item in Model)
+								{
+									count++;
+									<tr>
+										<td>@count</td>
+										<td>@item.Title</td>
+										<td>@item.Description</td>
+										<td><a href="/Feature/DeleteToFeature/@item.FeatureId" class="btn btn-danger">Sil</a></td>
+										<td><a href="/Feature/UpdateToFeature/@item.FeatureId" class="btn btn-success">Güncelle</a></td>
+									</tr>
+								}
+
+							</tbody>
+						</table>
+						<a href="/Feature/CreateFeature/" class="btn btn-primary">Yeni Öne Çıkan Alan Bilgi Girişi</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
