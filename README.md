@@ -1,45 +1,41 @@
-Portfolyo Projesi
+# Portfolyo Projesi
 
-GENEL BAKIŞ
+### GENEL BAKIŞ
+:sparkles: Bu projede klasik bir CV dinamik tabanlı bir web sitesine dönüştürüldü. 
 
-✨ Bu projede klasik bir CV dinamik tabanlı bir web sitesine dönüştürüldü.
-
-💡 Kullanıcının tüm bilgilerini dinamik olarak eklemesi sağlandı.
+:bulb: Kullanıcının tüm bilgilerini dinamik olarak eklemesi sağlandı.
 
 💻 Admin Panelinde Ekle/Sil/Güncelle/Listele özellikleri eklendi
 
 🥮 Pie Chart ve İstatistikler kullanılarak elde edilen veriler görselleştirildi.
 
-📑 Siteler üzerinde NavBar ve Sidebar özellikleri ile sayfalar arası yönlendirme ugyulandı.
+:bookmark_tabs: Siteler üzerinde NavBar ve Sidebar özellikleri ile sayfalar arası yönlendirme ugyulandı.
 
-📎 CV indirme linkleri eklendi.
+:paperclip: CV indirme linkleri eklendi.
 
-📍 Sosyal medya yönlendirmeleri sağlandı.
+:round_pushpin: Sosyal medya yönlendirmeleri sağlandı.
 
-💕 Site ziyaretçilerine İletişim paneli vasıtasıyla Mesaj bırakma özelliği oluşturuldu.
+:two_hearts: Site ziyaretçilerine İletişim paneli vasıtasıyla Mesaj bırakma özelliği oluşturuldu.
 
-Kullanılan Teknolojiler
-©️ ASP.Net MVC Framework tabanlı
+### Kullanılan Teknolojiler
+:copyright: ASP.Net MVC Framework tabanlı
 
-🔎 Entity Framework ORM aracı olarak kullanıldı
+:mag_right: Entity Framework ORM aracı olarak kullanıldı
 
-💯 DB First Yaklaşımı uygulandı
+:100: DB First Yaklaşımı uygulandı
 
-✔️ CRUD işlemleri uygulandı
+:heavy_check_mark: CRUD işlemleri uygulandı
 
-🎪 Html-CSS-Boostrap kullanılarak arayüz iyileştirildi
+:circus_tent: Html-CSS-Boostrap kullanılarak arayüz iyileştirildi
 
-🚀 LINQ sorguları eklendi
+:rocket: LINQ sorguları eklendi
 
-📚 MSSQL Server ile veri tabanı oluşturuldu
+:books: MSSQL Server ile veri tabanı oluşturuldu
 
-🔅 DropDownList'ten veri çekildi
+:low_brightness: DropDownList'ten veri çekildi
 
-🔨 PartialView kullanılarak sayfalar arası geçiş yönetimi kolaylaştırıldı
+:hammer: PartialView kullanılarak sayfalar arası geçiş yönetimi kolaylaştırıldı
 
-📟 Paging Yapısı kullanılarak Yetenekler sayfasının görünümü sadeleştirildi.
+:pager: Paging Yapısı kullanılarak Yetenekler sayfasının görünümü sadeleştirildi.
 
-🌕 ChartJs Plugin kullanılarak grafik oluşturuldu.
-
-
-
+:full_moon: ChartJs Plugin kullanılarak grafik oluşturuldu
