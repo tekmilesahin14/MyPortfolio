@@ -39,4 +39,7 @@ Kullanılan Teknolojiler
 
 📟 Paging Yapısı kullanılarak Yetenekler sayfasının görünümü sadeleştirildi.
 
-🌕 ChartJs Plugin kullanılarak grafik oluşturuldu
+🌕 ChartJs Plugin kullanılarak grafik oluşturuldu.
+
+
+
