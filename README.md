@@ -1,5 +1,7 @@
 Portfolyo Projesi
+
 GENEL BAKIŞ
+
 ✨ Bu projede klasik bir CV dinamik tabanlı bir web sitesine dönüştürüldü.
 
 💡 Kullanıcının tüm bilgilerini dinamik olarak eklemesi sağlandı.
