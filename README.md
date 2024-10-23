@@ -40,4 +40,6 @@
 
 :full_moon: ChartJs Plugin kullanılarak grafik oluşturuldu
 
+###GÖRSELLER###
+
 https://github.com/tekmilesahin14/MyPortfolio/issues/1#issue-2605547144
