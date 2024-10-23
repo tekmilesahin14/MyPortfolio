@@ -39,3 +39,5 @@
 :pager: Paging Yapısı kullanılarak Yetenekler sayfasının görünümü sadeleştirildi.
 
 :full_moon: ChartJs Plugin kullanılarak grafik oluşturuldu
+
+https://github.com/tekmilesahin14/MyPortfolio/issues/1#issue-2605547144
